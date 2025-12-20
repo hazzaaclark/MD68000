@@ -1,56 +1,19 @@
 # mdemu
 
-![Untitled-1](https://github.com/user-attachments/assets/d3352cca-1971-4504-9eed-ab09d24adf20)
-
-```
-Sonic the Hedgehog (PAL 50) on Wayland (KDE Plasma)
-```  
-
-# Motive:
-
-The aim with this project is to provide myself with my own surrogates means of emulating one of my favourite games consoles.
-
-Being my major breakout into the ever-growing, enigmatic world of Reverse Engineering and Low Level Programming, this project aims to showcase my expertise in said field.
-
-# Building:
-
-Built using the ANSI C99 standard
-
-```
-git clone
-
-make clean
-
-make
-```
-
-the following output should be an executable should ``mdemu`` 
-
-For Wayland support, drag and drop doesn't work in the conventional means
-So I have added command line support 
-
-Simply refer to the exe ``./mdemu`` followed by a path to your ROM
-
-``./mdemu /your/rom/path/here/rom.bin``
-
-## Documentation used:
-
-● ```Motorolla 68000 Programmer Manual:``` https://www.nxp.com/files-static/archives/doc/ref_manual/M68000PRM.pdf
-
-● ```Motorolla 68000 User Manual:``` https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf
-
-● ```M68000 Assembly Programming:``` https://www.inf.pucrs.br/~calazans/undergrad/orgcomp_EC/mat_microproc/MC6800-AssemblyLProg.pdf
-
-● ```RasterScroll for useful documentation on MD Graphics:``` https://rasterscroll.com/mdgraphics/
-
-● ```PlutieDev's Assembly Programming documentation for the MD:``` https://plutiedev.com/
-
-● ```SEGA Mega Drive Technical Manual, this is just a great all rounder for understanding the Mega Drive's Hardware:``` https://segaretro.org/images/a/a2/Genesis_Software_Manual.pdf
-
-● ```Zilog Z80 CPU Manual:``` http://www.z80.info/zip/um0081.pdf
-
-● ```Sonic Retro ASM to Hex Opcode reference:``` http://info.sonicretro.org/SCHG:68000_ASM-to-Hex_Code_Reference
-
-● ```VDP:``` https://md.railgun.works/index.php?title=VDP
+<img width="113" height="96" alt="image" src="https://github.com/user-attachments/assets/952fdd9c-3c9a-4281-8a3e-815f98a9d4b5" />
 
 
+## NOTICE:
+
+I have made the unanimous decision to cease all developments on mdemu, motivated by a plethora of reasons. 
+
+One of the most prevalent choices was due to not feeling satisifed with the codebase and the subsequent quality of code. While that could be easily rectified with some added "quality of life" touches, this repository is beyond saving in my eyes and touching up on such would be a waste of time given my disinterest.
+Not to mentiom, the various other architectures that have caught my eye and have been more drawn towards as a result. It should not be understated that the 68K is the catalyst for all of my endeavours into Computer Architecture and I will continue to flourish with projects like [lib68k](https://github.com/hazzaclark/lib68k/) to help foster emulation for *other* legacy systems.
+
+It should also not be understated that even with the departure from this project, the importance of which will not go un-noticed; other projects such as the aforementioned serve to provide the foundational basis for working on something that I am *actually* proud of - conversely to mdemu.
+
+Therefore, this project serves as a historical landmark as a then-18 year old wanting to get into C/C++ programming and not having a Scooby Doo of what he was doing, while targetting a console he dearly loves. 
+
+Barring the whole sob story, I would not be where I am without this project teaching me the fundamentals of my niche, so I owe this project it's due regard for being a prevalent stepping stone into what I continue to do and aspire to be each and everyday.
+
+God Bless!
